@@ -33,3 +33,9 @@ fs.readFile('../../index.html', 'utf-8', (err,contenido)=>{
     }
     console.log(contenido);
 });
+fs.readFileSync('../../index.html', 'utf-8', (err,contenido)=>{
+    if(err){
+        throw err;
+    }
+    console.log(contenido);
+});

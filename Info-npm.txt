@@ -1,0 +1,60 @@
+//Npm es el archivo de software más grandde del mundo, que contiene paquetes que puedes instalar y usar con node.js node
+
+
+¿que es un paquete?
+
+un paquete es un archivo o directorio descrito por un archivo packege.json
+
+puede ser publicado en el registr de npm 
+
+¿Que es un modulo?
+
+un modulo puede ser un archivo o directorio(carpeta) que se importa en el directorio de node_modules, el cual se puede importa con un require()
+
+Para poder incluir un modulo con require(), debe ser un archivo javaScript o una carpeta con un archivo package.json que contiene una propiedad 'main'
+
+De los modulos de node_modules, solo los modulos que contienen un archivo package.json son paquetes
+
+¿Qué es una dependencia?
+
+Es un paquete que otro paquete nesecita para poder funcionar correctamente.
+
+---------------------------------------------------------------------------------------------------------------------
+¿Qué es JSON?
+JavaScript Object Notation
+
+Se utiliza para guardar ajustes y cunfiguración y es un formato de texto, el cual esta basado en la notación de objetos de javaScript, Pero solo es texto.
+
+Nos permite almacenar objetos de javaScript como texto
+
+¿Como convertir un objeto de javaScript y convertirlo a formato json?
+
+JSON.stringify()
+
+convertir cadenas de caracteres a objetos de javaScript
+
+JSON.parse()
+
+
+---------------------------------------------------------------------------------------------------------------------
+npm INSTALL Y uninstall
+
+si copiamos un @ despues del nombre del paquete que queremos instalar, este automaticamente da la version que queremos instalar, ejemplo:
+npm install express@4.15.1
+
+desinstalar:
+npm uninstall express
+
+devDependencies 
+algunas dependencias solo se necesitaran mientras se crea la aplicación y no cuando esta en vivo. asi que podemos guardar esas dependencias o paquetes en una categoria especial
+
+npm install express --save-dev // se guarda como una dependencia sobre el desarrollo de la aplicación
+npm install express@4.15.1 --save-dev
+
+----------------------------------------------------------------------------------------------------------------------
+
+¿Qué es package-lock.json?
+
+se genera automaticamente cuando npm medifica el arbol de node_modules o package.json
+describe eñ árbol generado para que futuras instalaciones puedan generar exactamente el mismo árbol
+

@@ -8,3 +8,9 @@ fs.writeFile('../../index.html', 'Contenido nuevo',(err)=>{
     }
     console.log('Contenido remplazdo correctamente');
 })
+fs.writeFileSync('../../index.html', 'Contenido nuevo',(err)=>{
+    if(err){
+        throw err;
+    }
+    console.log('Contenido remplazdo correctamente');
+})

@@ -1,0 +1,15 @@
+evento es la repuesta que da el servidor al escuchar una peticion del cliente o una llamada
+
+¿Qué es un emitters?
+Son objetos que emiten eventos nombrados y llaman a funciones especificas cuando ocurren, son instancias de la clase EventEmitter.
+
+tienen un evento .on() para asociar una función al evento y se denomina Event handler o event lisener(manejo de evento)
+
+módulo eventos
+que nos permite.
+
+definir
+emitir
+escuchar
+
+las funciones que manejan eventos cuando ocurren, se les denomina event handlers

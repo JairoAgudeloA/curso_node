@@ -1,0 +1,12 @@
+Objeto que representa el eventual resultado (o error) de una operación asíncrona.
+
+
+cuando iniciamos un proceso asincrono, no sabemos cuando va a terminar, ni como va a terminar, no sabemos el resultado ni el mensaje de error que va a ocurrir
+
+las promesas se utilizan cuando no sabemos cuanto tiempo va a tardar una operación
+
+la promesa es un objeto que se asocia a un callback function (se puede interpretar como una función de respuesta);
+
+funcion callback
+es una funcion que se pasa a otra función como argumento y luego se ejecuta dentro de la función externa.
+
