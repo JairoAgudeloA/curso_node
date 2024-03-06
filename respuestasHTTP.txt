@@ -1,0 +1,21 @@
+Response = respuesta
+
+estructura especifica:
+
+código de estado:
+le dice al cliente si la respuesta fue exitosa u ocurrio un error.
+
+texto de estado:
+describe el codigo de exito o error generado.
+
+versión de HTTP:
+incluye la version de HTTP
+
+cabeceras(headers):
+Son opcionales y proveen información adicional sobre la respuesta.
+
+cuerpo(body)
+incluye un cuerpo si necesita un recurso.
+contiene la información que debe ser enviada desd el servidor hacia el cliente.
+
+

@@ -1,0 +1,28 @@
+Modelo que usamos para acceder a internet y obtener recursos e información
+
+cliente: el cliente se puede definir como el navegador que envia solicitudes a un servidor.
+
+servidor: programa que se ejecuta en un servidor fisico para ofrecer un servicio al cliente, envia informacion al cliente
+
+¿como se comunican?
+
+el servidor conoce el formato esperado del mensaje que envía el cliente.
+
+el cliente conoce el formato esperado del mensaje que recibe del servidor.
+
+El protocolo HTTP define el formato de los mensajes.
+
+¿qué es un protocolo?
+
+conjunto de reglas que permiten trasmitir información entre dispositivos de una red.
+
+que en este caso seria el protocolo HTTP.
+
+Hyper
+Text
+Transfer
+Protocol
+
+protocolo de transferencia de hipertexto.
+
+

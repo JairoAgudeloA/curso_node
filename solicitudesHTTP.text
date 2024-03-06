@@ -1,0 +1,38 @@
+Request= solicitud
+
+Solicitud HTTP(Request):
+
+Métodos HTTP
+
+camino(path)
+versión de HTTP
+cabeceras(headers)
+cuerpo(body)
+
+
+cabeceras(headers):
+proveen infromación adicional sobre la solicitud
+
+cuerpo(body):
+contene la informacion que debe eser enviada al servidor para procesar la solicitud, normalmente esa informacion se transmite en formato json.
+no se incluye en todas las solicitudes. solo aquellas que requieran enviar informacion, por ejemplo metodos: PUT,POST.
+
+Métodos HTTP:
+Verbo o sustantivo que indica la intención de la solicitud.
+Normalmente se le denomina como "verbos HTTP"
+
+Mas conocidos:
+GET,POST,PUT,DELETE, otros...
+
+GET: Verbo para solicitar un recurso específico. por ejemplo, un archivo HTML, CSS o una imagen.
+
+POST: verbo para crear un recurso específico. por ejemplo, agregar un usuario nuevo a una base de datos.
+
+PUT: Verbo para modificar un recurso específico. por ejemplo, para hacer un cambio a un usuario en una base de datos.
+
+DELETE: verbo para eliminar un recurso específico. por ejemplo, eliminar un usuario de una base de datos.
+
+
+
+
+
