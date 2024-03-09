@@ -1,0 +1,14 @@
+manejar las solicitudes del cliente en base a ciertos criterios.
+
+2 principales = el metodo y el camino.
+
+metodo: solicitud http: put,get,post,delet, otros...
+path: camino de la petición http
+
++ como lo va a manejar.
+
+ejemplo.
+si recibes una solicitud GET en /cursos, haz esto.
+
+¿CÓMO SE APLICA?
+

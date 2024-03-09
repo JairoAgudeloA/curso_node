@@ -39,15 +39,34 @@ function procesarPedido(respuesta){
 
 //manejo de promesas con el async await, podemos escribir codigo asincrono, como si fuera sincrono, respetando cada linea de codigo como la asignemos.
 
+
 async function realizarPedido(producto){
     try {
-        const respuesta = await ordenarProducto(producto);
-        console.log('Respuesta recibida');
-        const procesoPedido = await procesarPedido(respuesta);
-        console.log(procesoPedido);
+        const respuesta= await ordenarProducto(producto);
+        console.log('Solicitud en proceso...');
+        const obtenerRespuesta = await procesarPedido(respuesta);
+        console.log(obtenerRespuesta);
     } catch (error) {
         console.log(error);
     }
 }
 
-realizarPedido('lapiz')
+realizarPedido('taza')
+
+
+
+
+
+
+// async function realizarPedido(producto){
+//     try {
+//         const respuesta = await ordenarProducto(producto);
+//         console.log('Respuesta recibida');
+//         const procesoPedido = await procesarPedido(respuesta);
+//         console.log(procesoPedido);
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
+
+// realizarPedido('lapiz')

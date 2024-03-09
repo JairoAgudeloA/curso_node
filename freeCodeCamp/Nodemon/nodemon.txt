@@ -1,0 +1,6 @@
+nodemon es una herramienta que reinicia la aplicación de node.js cuando detecta algún cambio.
+
+npm install -g nodemon // se instala de manera global para no estar instalandolo en cada proyecto que empecemos a trabajar.
+
+luego, para inicializar cada proyecto, cambiamos la sintaxis de node en la terminal o el comando por, nodemon <aplicacion>
+

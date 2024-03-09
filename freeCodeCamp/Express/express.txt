@@ -1,0 +1,41 @@
+Es el framework web más popular de node.js
+
+nos ayuda a desarrollar aplicaciones de node.js
+
+caracteristicas:
+
+-Routing
+-Enfocado en alto rendimiento
+-Nos permite desarrollar aplicaciones de node.js mas rapidamente con código mas conciso.
+
+conceptos basicos de express:
+
+crud:
+operaciones básicas que se pueden realizar con la información almacenada.
+son las operaciones que podemos realizar con una base de datos.
+
+Create // post
+Read  // get
+Update // put
+Delete // delete
+
+
+API:
+application programming interface // interfaz de programación de aplicaciones
+
+la api es un tipo de interfaz de software que permite que dos o mas programas se comuniquen entre sí.
+
+nos permite desarrollar un software que ofrezca un servicio a otro software.
+
+la api no es usada directamente por el usuario, sino por el programador que usa la api para implementar su programa.
+
+normalmente cuando enviamos y recibimos informacion, trabajamos con el formato JSON.
+
+termino REST:
+
+estilo de arquitectura de software para sistemas hipermedia distribuidos como la World Wide Web.
+
+Representational State Transfer (REST);
+
+REst ful API= es una API basada en REST.
+

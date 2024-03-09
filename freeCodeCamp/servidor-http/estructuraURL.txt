@@ -1,0 +1,39 @@
+url: dirección de un recurso en la web
+
+Uniform Resource Locator // localizador uniforma de recursos
+
+protocolo: es el conjunto de reglas que se usan para la comunicacion de un recurso especifico.
+
+http o https.
+
+subdominio: es información adicional agregada a una url, permite a los sitios web organizar y separar la informacion
+
+www.
+
+dominio: es el nombre de la pagina o referencia unica a un sitio web
+
+freecodecamp
+
+dominio de nivel superior: los .com . net . int .edu .gov .org se denomina en ingles /TLD
+
+path: camino de la ubicación de la url, puede tener parametros, que nos deja personalizarlo y se llaman parametros de ruta que se separan con una barra inclunada (/).
+
+freecodecamp/inicio
+freecodecamp/registro
+
+parametros query= parametros de busqueda que no son como tal parte de la url, cuando buscamos en un sitio, en la url se pone los paramteros de busqueda, se utilizan para obtener contenido dinámico. por ejemplo filtrar una lista de recursos.
+
+se le conoce también como "query string"
+
+?q=cursos+de+node
+
+?q:clave
+=
+cursos+de+node:valor
+
+si queremos incluir varios parametro query, tenemos que separalos con los ampersans (&). y cada uno tendra su clave y su valor.
+
+normalmente usamos parametros query oara filtrar solicitudes GET(para obtener recursos especificos).
+
+
+
